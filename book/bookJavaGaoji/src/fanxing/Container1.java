@@ -14,7 +14,7 @@ public class Container1 <T>{
 	public static void main(String[] args){
 		Container1<Person>  c1=new Container1<Person>(new Person("xiaobao"));
 		Person s1=c1.get();
-		System.out.println(s1);
+		System.out.println(s1.getName());
 	}
 }
 
