@@ -18,6 +18,8 @@ class Student implements Comparable<Student>{
 	}
 	//��дcomparable�ӿ��е�compareTo����
 	//�Ƚ�����
+	//重写comparable接口下面compareTo方法
+	//重写compareTo
 	public int compareTo(Student a){
 		return this.age-a.age;
 	}
