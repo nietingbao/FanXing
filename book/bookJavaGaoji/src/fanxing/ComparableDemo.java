@@ -16,8 +16,6 @@ class Student implements Comparable<Student>{
 	void printInfo(){
 		System.out.println(name+"\t"+age);
 	}
-	//��дcomparable�ӿ��е�compareTo����
-	//�Ƚ�����
 	//重写comparable接口下面compareTo方法
 	//重写compareTo
 	public int compareTo(Student a){
